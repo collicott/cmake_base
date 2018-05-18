@@ -17,4 +17,5 @@ cmake .. && make
 ### Usage ###
 Once the executable has been created simply call `CMakeHelloWorld`, either from the build directory or anywhere (if you installed to /usr/local/bin by also running make install but this is not necessary, etc).
 
-
+### NOTE ###
+- building off original (jameskbride) but not forking as we will likely do some weird non-project related changes. Just a playground for teaching students.
