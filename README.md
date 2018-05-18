@@ -1,31 +1,26 @@
-# Minimal CMake Example
-This project tries to be a minimal cmake example. It covers sources,
-resources, dependencies and packaging.
+This is an extremely simple example C++ application which uses CMake. 
+It will build and install an application called CMakeHelloWorld which simply outputs "Hello, world!" to stdout.  
 
-I created this project, because I think the official documentation of
-CMake is not the best. It avoidids talking about the actually
-important parts to setup a new project, but instead explains and
-focuses on unnecessary fuss like how to write configuration headers.
+### Installation ###
+As this is an example of how to use CMake you'll need to download it (http://www.cmake.org/cmake/resources/software.html) or install it via:
+```bash
+sudo apt-get install cmake
+```
+Once CMake has been install navigate to the root of the project and issue the following commands:
+```bash
+mkdir build
+cd build
+cmake .. && make
+make install
+```
+You may need to use`sudo make install` command as it will install to /usr/local/bin .  This might be a good opportunity to investigate stow (http://www.gnu.org/software/stow/manual/stow.html) as a means of managing the installation of applications in this manner, however I haven't gotten far enough into my CMake knowledge to take that step.
 
-I think that a configuariton headers are something you shouldn't do at
-all. In my opinion the project should just compile the source without
-any magic happening. Generating configuration headers just makes the
-build unnecessarily complicated, and tools that work on the source
-code get a harder job. I also disagree that every source folder should
-have it's own CMake file. I think when there is no really good reason
-do do it otherwise, one CMake file should be enough for the entire
-project. In one file you should be able to see everything that is
-important to build all parts of the project. This information should
-not be scattered around in different source folders within the
-project.
+### Usage ###
+Once the executable has been created simply call `CMakeHelloWorld`, either from the build directory or anywhere (if you installed to /usr/local/bin, etc).
 
-## build can fail because of boost
+***Uninstallation*** 
+Removing the application is straight-forward.  Simply delete the binary 'CMakeHelloWorld' from /usr/local/bin.
+   
 
-The build of this project might fail, when CMake does not find
-boost. This does not mean that there is an error in the
-``CMakeLists.txt`` file, it just means, that CMake could not find
-boost in your system. You can simply remove the boost dependency, if
-you don't want or need it. Or you could tell CMake where to find boost
-with ccmake or cmake-gui. It's just there to serve as an example, how
-you could declare dependencies that you do not distribute with your
-project.
+***Caution***
+I am a complete C++ noob.  I've created this project as part of an effort to kickstart my C++ recovery as I have recently been placed on a team which is developing an embedded application.  There may be any number of things wrong with this example.  If you see something you know to be implemented incorrectly please contact me via github and I will do my best to correct it.  Better, fork the project, fix it and issue a pull request.
