@@ -1,0 +1,14 @@
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/CMakeFiles/install/local.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/CMakeFiles/rebuild_cache.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/CMakeFiles/edit_cache.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/CMakeFiles/install/strip.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/CMakeFiles/install.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/CMakeFiles/list_install_components.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/CMakeFiles/CMakeHelloWorld.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/Hello/CMakeFiles/install/local.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/Hello/CMakeFiles/install/strip.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/Hello/CMakeFiles/install.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/Hello/CMakeFiles/list_install_components.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/Hello/CMakeFiles/rebuild_cache.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/Hello/CMakeFiles/edit_cache.dir
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/build/Hello/CMakeFiles/Hello.dir

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/Hello/Speaker.cpp
+Speaker.h
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/Hello/Speaker.h
+
+/Users/michaelperry/Desktop/GitHubTest/cmake_base/Hello/Speaker.h
+stdio.h
+-
+iostream
+-
+
